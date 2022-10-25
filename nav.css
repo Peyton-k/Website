@@ -1,0 +1,50 @@
+.nav {
+    border: 5px solid #474b4f;
+    border-radius: 5px;
+    background-color: #474b4f;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    /* float: left; */
+    /* text-align: center; */
+}
+
+a.active {
+    font-weight: bold;
+    color: white;
+}
+a.active:hover {
+    color: white;  
+    background-color: #474b4f;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    color: #86c232;
+    border-radius: 5px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #86c232;  
+    background-color: #61892f;
+    transition: 0.5s;
+}
+  
+a:active {
+    color: #61892f ;
+}
+
+@media only screen and (max-width:550px) {
+    .nav {
+        font-size: 18px;
+    }
+}
